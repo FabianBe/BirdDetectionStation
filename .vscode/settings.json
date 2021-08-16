@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./bird_detection_station"
+    ],
+    "python.formatting.provider": "black"
+}

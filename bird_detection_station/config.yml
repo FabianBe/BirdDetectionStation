@@ -1,0 +1,28 @@
+#station type ONLINE | OFFLINE | OFFLINE_CLASSIFICATION
+station_type: OFFLINE_CLASSIFICATION
+
+#Audio config
+sound_device: "AK5371: USB Audio"
+
+#prediction settings
+recording_time: 6
+is_silent_threshold: 0.01
+accuracy_threshold: 0.5
+
+#host
+host_url: localhost:8000
+
+# Bird sound classifier service
+classifier_url: http://localhost:3000
+
+# location
+gps_coordinates:
+  lat: 53.56
+  lon: 10.00
+
+#mqtt
+#mqtt_broker: localhost
+#mqtt_port: 8883
+
+#weather
+#api_key:
